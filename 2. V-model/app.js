@@ -1,6 +1,6 @@
-var app = new Vue({
+const app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Vue!'
+        message: "Vue 2 sample"
     }
 })
