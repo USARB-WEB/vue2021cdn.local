@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app" style="border: 1px solid gray">
+
+        <select v-model="gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+
+        <img v-if="gender==='F'" src="https://c0.klipartz.com/pngpicture/874/55/gratis-png-iconos-de-computadora-avatar-perfil-de-usuario-femenino-avatar.png" alt="">
+        <img v-if="gender==='M'" src="https://icon-library.com/images/male-icon-png/male-icon-png-17.jpg" alt="">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
