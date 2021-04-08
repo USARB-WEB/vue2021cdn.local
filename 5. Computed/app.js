@@ -5,7 +5,7 @@ var app = new Vue({
         b: 0
     },
     computed: {
-        suma(){
+        suma() {
             return this.a + this.b;
         }
     }
